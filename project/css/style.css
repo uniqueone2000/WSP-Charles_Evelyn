@@ -1,0 +1,315 @@
+/*-------------------------- New CSS for Florida Department of Highway Safety and Motor Vehicles --------------------------*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) --------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+p.required {
+	color: #FOO;
+	text-align: center;
+}
+
+body {
+	line-height: 1.5em;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* -------------------------- End of CSS RESET --------------------------*/
+
+/* -------------------------- Start of BODY  --------------------------*/
+body {
+	width: 100%;
+	background: #025939;
+}
+/* -------------------------- End of BODY  --------------------------*/
+
+/* -------------------------- Start of HEADER  --------------------------*/
+header {
+	overflow: hidden;
+	border-bottom: 2px solid #000;
+	background: #DDD url('../images/Flag_of_Florida.png') no-repeat 13.125em;
+}
+
+header h1 {
+	text-align: center;
+	line-hieght: 1.5em;
+}
+
+/* -------------------------- End of HEADER  --------------------------*/
+
+/* -------------------------- Start of WRAPPER  --------------------------*/
+#wrapper {
+	width: 60.000em;
+	margin: 0em auto;
+	overflow: hidden;
+	background: #FFF;
+}
+/* -------------------------- End of WRAPPER  --------------------------*/
+
+/* -------------------------- Start of NAVIGATION  --------------------------*/
+nav {
+	width: 60.000em;
+	background: #F2BE4B;
+	overflow: hidden;
+}
+
+nav ul {
+	background: #D5611A;
+	overflow: hidden;
+	display: inline;
+}
+
+nav li {
+	width: 10.000em;
+	background: #F2BE4B;
+	float: left;
+}
+
+nav a {
+	background: #C26A03;
+	display: block;
+	text-align: center;
+}
+
+/*---------- Start of Link States ----------*/
+
+Yellow = #FF0
+Dark Gray = #999
+Red = #F00
+White = #FFF
+Purple = 99F
+
+nav a:link {
+	color: #FFF;
+	background: #F90;
+}
+
+nav a:visited {
+	color: #CCC;
+	background: #F90;
+}
+
+nav a:hover {
+	color: #F2CE20;
+	background: #C26A03;
+	background-image: url('../images/orange_button_stripe.png'); 
+	background-repeat: repeat-x;
+}
+
+nav a:active {
+	color: #FC3;
+	background: #F90;
+}
+/*---------- End of Link States ----------*/
+
+/* -------------------------- End of NAVIGATION  --------------------------*/
+
+/* -------------------------- Start of ASIDE  --------------------------*/
+aside {
+	width: 15.438em;
+	margin: 0.125em;
+	background: #D5611A;
+	float: left;
+}
+/* -------------------------- End of ASIDE  --------------------------*/
+
+/* -------------------------- Start of MAIN SECTION  --------------------------*/
+#main_section {
+	width: 44.063em;
+	margin: 0.125em;
+	float: right;
+	background: #FFF;
+	padding: auto 0.500em;
+}
+/* -------------------------- End of MAIN SECTION  --------------------------*/
+
+/* -------------------------- Start of SECTION  --------------------------*/
+section {
+	/*background: #BF3326;*/
+}
+
+/* -------------------------- End of SECTION  --------------------------*/
+
+/* -------------------------- Start of ARTICLE --------------------------*/
+article {
+	
+	margin: 0.125em;
+	float: left;
+	background: #FFF;
+	padding: 0.625em;
+}
+/* -------------------------- End of ARTICLE  --------------------------*/
+
+/* -------------------------- Start of FOOTER  --------------------------*/
+footer {
+	background: #F28B0C;
+	clear: both;
+	border-top: 2px solid #000;
+}
+/* -------------------------- End of FOOTER  --------------------------*/
+
+/* -------------------------- TABLES  --------------------------*/
+table {
+
+}
+
+th {
+
+}
+
+td {
+
+}
+
+/* -------------------------- TABLES  --------------------------*/
+
+/* -------------------------- FORMS  --------------------------*/
+form {
+	background: #999;
+	padding: 0.625em;
+}
+
+fieldset {
+	background: #888;
+	border: 0.125em solid #000;
+	padding: 0.313em;
+}
+
+legend {
+	/*border: 0.125em solid #000;*/
+	padding: 0.313em;
+}
+
+label {
+	margin: 0.313em ;
+}
+
+
+/* -------------------------- FORMS  --------------------------*/
+
+/*  ======================Media Querries================  */
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media screen and (min-width: 768px) and (max-width: 959px) {
+	body {
+		background-image: url("../images/metaltextures032.png");		
+	}
+	
+	#wrapper {
+		background: #FC3;
+	}
+	
+	h2, h3, h4, h5, h6 {
+		text-align: center;
+		line-height: 1.3em;
+	}
+	
+	header h1 {
+		margin: 0em 0em 0em .1em;
+		font-size: 2.125em;
+	}
+	
+	header p {
+		margin: 0em 0em 0em .4em;
+	}
+	
+	nav li{
+		width: 8.063em;
+	}
+	
+	nav a {
+		line-height: 1.3em;
+	}
+}
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#wrapper {
+		background: #C39;
+	}
+	
+	aside {
+	display: none;
+	}
+	
+	article {
+		float: left;
+		width: 95%;
+		margin: 0.375em auto;
+	}
+	
+	#mainSection {
+		float: left;
+		width: 95%;
+		margin: 0.375em auto;
+	}
+	
+	footer {
+		/*width: 42.813em; */
+		float: right;
+	}
+}
+
+/* Mobile Portrait size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	#wrapper {
+		background: #0F0;
+	}
+	
+	aside {
+	display: none;
+	}
+	
+	article {
+		float: left;
+		width: 95%;
+		margin: 0.375em auto;
+	}
+	
+	#mainSection {
+		float: left;
+		width: 95%;
+		margin: 0.375em auto;
+	}
+	
+	footer {
+		/*width: 42.813em; */
+		float: right;
+	}
