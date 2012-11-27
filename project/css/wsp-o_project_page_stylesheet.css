@@ -1,17 +1,77 @@
 /* ------- CSS for WSP-O Project Page ------- */
+@import "vanilla_reset.css ";
 
+/* ------- General Styles ------- */
+
+hgroup {
+	text-shadow: 0.125em 0.125em 0.125em #000;
+	border-radius: 0.125em;
+	text-align: left;
+	text-indent: 0.625em;
+	background: #14594B;
+	color: #FFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.5em;
+	font: 1.3em, arial, helvetica, serif, bold;
+	margin: 0.5em 1.500em;
+	text-indent: 0.625em;
+	background: #14594B;
+	color: #FFF;
+	text-shadow: 0.125em 0.125em 0.125em #000;
+	border-radius: 0.125em;
+}
+
+#wrapper, article, section, ul {
+	margin-left: 0.938em;
+}
+
+td.right {
+	text-align: right;
+}
+
+
+/* ------- Start of Body ------- */
 body {
-	background: #999;
+	width: 100%;
+	background: #14594B;
 }
 
+/* ------- Start of Wrapper ------- */
+#wrapper {
+	width: 60.000em;
+	margin: 0.313em auto;
+	background: #FFF;
+	overflow: hidden;
+	padding: 0.625em;
+	border-radius: 0.125em;
+}
+
+
+/* ------- Start of Header ------- */
 header {
-	background: #FF0;
+	background: #33E5C2;
+	border-radius: 0.125em;
+	padding: 0.625em;
 }
 
+/* ------- Start of HGroup ------- */
 hgroup {
 	background: #FFF;
 }
 
+/* ------- Start of Navigation ------- */
 nav {
 	background: #FF0;
+}
+
+aside {
+	width: 11.250em;
+	margin: 0.063em 0em;
+	padding-bottom: 91.45em;
+	margin-bottom: -91.45em;
+	background: #2ABFA1;
+	float: left;
+	border-radius: 0.125em;
 }
