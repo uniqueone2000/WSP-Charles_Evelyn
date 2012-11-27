@@ -74,7 +74,7 @@ header h1  {
 
 /* -------------------------- Start of ASIDE  --------------------------*/
 aside {
-	width: 11.250em;
+	width: 11.248em;
 	margin: 0.063em 0em;
 	padding-bottom: 91.45em;
 	margin-bottom: -91.45em;
@@ -144,10 +144,10 @@ nav a:active {
 /* -------------------------- Start of ARTICLE --------------------------*/
 article {
 	width: 46.750em;
-	margin: 0.063em 0em 0em 0.063em;
+	margin: 0.063em auto;
 	padding: 0.625em 0.938em;
 	background: #8ED9CA;
-	float: left;
+	float: right;
 	border-radius: 0.125em;
 }
 
