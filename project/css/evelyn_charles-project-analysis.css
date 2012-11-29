@@ -54,6 +54,10 @@ p {
 	text-align: center;
 }
 
+.justify {
+	text-align: justify;
+}
+
 
 /* -------------------------- Start of BODY  --------------------------*/
 body {
@@ -210,11 +214,13 @@ table {
 	margin: auto auto;
 	border: 0.125em solid #999;
 	padding: 0.125em;
+	border-collapse: collapse;
 }
 
 th {
 	text-align: left;
 	font: bold;
+	background: #54D1B1;
 }
 
 tr {
