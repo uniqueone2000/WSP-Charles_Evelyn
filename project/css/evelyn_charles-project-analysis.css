@@ -46,8 +46,12 @@ p {
 	margin-left: 0.938em;
 }
 
-td.right {
+.right {
 	text-align: right;
+}
+
+.center {
+	text-align: center;
 }
 
 
