@@ -6,7 +6,6 @@ hgroup {
 	text-shadow: 0.125em 0.125em 0.125em #000;
 	border-radius: 0.125em;
 	text-align: left;
-	/*margin: 0.5em 1.500em;*/
 	text-indent: 0.625em;
 	background: #14594B;
 	color: #FFF;
@@ -15,7 +14,7 @@ hgroup {
 h1, h2, h3, h4, h5, h6 {
 	line-height: 1.5em;
 	font: 1.3em, arial, helvetica, serif, bold;
-	margin: 0.5em 1.500em;
+	margin: 0.5em 1.200em;
 	text-indent: 0.625em;
 	background: #14594B;
 	color: #FFF;
@@ -24,13 +23,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-	font: arial, helvetica, serif;
+	font: 1.000em arial, helvetica, serif;
 }
 
 p {
 	text-indent: 1.563em;
 	line-height: 1.3em;
 	margin-bottom: 1em;
+}
+
+.title_header {
+	margin: 0.313em;
+	text-align:center;
+}
+
+.escape {
+	float: right;
+	padding: 0.625em 0 0 0.313em;
 }
 
 #wrapper, article, section, ul {
@@ -75,7 +84,7 @@ header h1  {
 /* -------------------------- Start of ASIDE  --------------------------*/
 aside {
 	width: 11.248em;
-	margin: 0.063em 0em;
+	margin: 0.125em 0em;
 	padding-bottom: 91.45em;
 	margin-bottom: -91.45em;
 	background: #2ABFA1;
@@ -103,6 +112,7 @@ nav li {
 nav a {
 	display: block;
 	text-align: left;
+	text-indent: 0.625em;
 	text-decoration: none;
 	line-height: 1.3em;
 	padding: 0em 0.250em;
@@ -144,7 +154,7 @@ nav a:active {
 /* -------------------------- Start of ARTICLE --------------------------*/
 article {
 	width: 46.750em;
-	margin: 0.063em auto;
+	margin: 0.125em auto;
 	padding: 0.625em 0.938em;
 	background: #8ED9CA;
 	float: right;
