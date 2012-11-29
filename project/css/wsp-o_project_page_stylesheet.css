@@ -15,7 +15,7 @@ hgroup {
 h1, h2, h3, h4, h5, h6 {
 	line-height: 1.5em;
 	font: 1.3em, arial, helvetica, serif, bold;
-	margin: 0.5em 1.500em;
+	margin: 0.5em 1.200em;
 	text-indent: 0.625em;
 	background: #14594B;
 	color: #FFF;
@@ -23,12 +23,19 @@ h1, h2, h3, h4, h5, h6 {
 	border-radius: 0.125em;
 }
 
-#wrapper, article, section, ul {
-	margin-left: 0.938em;
+body {
+	font: 1.000em arial, helvetica, serif;
 }
 
-td.right {
-	text-align: right;
+p {
+	text-indent: 1.563em;
+	line-height: 1.3em;
+	margin-bottom: 1em;
+}
+
+.title_header {
+	margin: 0.313em;
+	text-align:center;
 }
 
 
@@ -41,7 +48,7 @@ body {
 
 /* ------- Start of Wrapper ------- */
 #wrapper {
-	width: 80.000em;
+	width: 65.000em;
 	margin: 0.313em auto;
 	background: #FFF;
 	overflow: hidden;
@@ -55,11 +62,6 @@ header {
 	background: #33E5C2;
 	border-radius: 0.125em;
 	padding: 0.625em;
-}
-
-/* ------- Start of HGroup ------- */
-hgroup {
-	background: #FFF;
 }
 
 /* ------- Start of Navigation ------- */
