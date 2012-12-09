@@ -1,5 +1,5 @@
 /*-------------------------- New CSS for Florida Department of Highway Safety and Motor Vehicles --------------------------*/
-@import "vanilla_reset.css ";
+@import "vanilla_reset.css "; 
 
 p.required {
 	color: #FOO;
@@ -24,12 +24,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
 /* -------------------------- End of CSS RESET --------------------------*/
 
 /* -------------------------- Start of BODY  --------------------------*/
 body {
 	width: 100%;
-	background: #025939;
+	background: #021526;
 }
 /* -------------------------- End of BODY  --------------------------*/
 
@@ -37,30 +39,30 @@ body {
 header {
 	overflow: hidden;
 	border-bottom: 2px solid #000;
-	background: #DDD url('../images/Flag_of_Florida.png') no-repeat 13.125em;
+	/*background: #DDD url('../images/Flag_of_Florida.png') no-repeat 13.125em;*/
 }
 
 header h1 {
 	text-align: center;
 	line-hieght: 1.5em;
 }
+header.title_bar {
+	background: #021526 url("../images/FHP_Logo2_small.jpg") no-repeat 1.875em;
+	
+}
+
+
 
 /* -------------------------- End of HEADER  --------------------------*/
 
-/* -------------------------- Start of WRAPPER  --------------------------*/
-#wrapper {
-	width: 60.000em;
-	margin: 0em auto;
-	overflow: hidden;
-	background: #FFF;
-}
-/* -------------------------- End of WRAPPER  --------------------------*/
 
 /* -------------------------- Start of NAVIGATION  --------------------------*/
 nav {
+	margin: auto auto;
 	width: 60.000em;
 	background: #F2BE4B;
 	overflow: hidden;
+	border: 0.125em solid #5C7DF2;
 }
 
 nav ul {
