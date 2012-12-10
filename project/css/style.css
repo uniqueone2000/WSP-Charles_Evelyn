@@ -11,17 +11,24 @@ body {
 }
 
 hgroup {
+	width: 76.874em;
+	padding: 0 0.938em;
 	font: 'Arial Rounded MT bold', arial, helvetica;
-	background: #FFF;
-	margin-top: 0.125em;
+	float: left;
+}
+
+h1 {
+	color: #FFF;
 }
 
 .heading {
 	color: #FFF;
+	float: left;
 }
 
 .sub_heading {
 	color: #FF0;
+	float: right;
 }
 
 ol, ul {
@@ -69,6 +76,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 header h1 {
 	text-align: center;
 	line-hieght: 1.5em;
+	font: #FFF 'Arial Rounded MT bold', arial, helvetica;
 }
 header.title_bar {
 	background: #021526 url("../images/FHP_Logo2_small.jpg") no-repeat 1.875em;
@@ -90,12 +98,16 @@ nav {
 	background: #021526;
 	overflow: hidden;
 	border: 0.250em solid #5C7DF2;
+	border-radius: 0.125em;
 }
 
 nav ul {
+	width: 74.998em;
+	margin: 0.125em auto;
 	background: #D5611A;
 	overflow: hidden;
 	display: inline;
+	outline: 0.125em solid red;
 }
 
 nav li {
@@ -151,6 +163,7 @@ aside {
 	background: #021526;
 	overflow: hidden;
 	border: 0.250em solid #5C7DF2;
+	border-radius: 0.125em;
 }
 /* -------------------------- End of ASIDE  --------------------------*/
 
