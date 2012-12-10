@@ -99,18 +99,18 @@ header h1 {
 	background: -ms-linear-gradient(top,  #074a7c 0%,#021526 99%); /* IE10+ */
 	background: linear-gradient(to bottom,  #074a7c 0%,#021526 99%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#074a7c', endColorstr='#021526',GradientType=0 ); /* IE6-8 */
-	border-bottom: 0.031em solid #5C7DF2;
+	border-bottom: 0.063em solid #5C7DF2;
 }
 
 .title_bar ul {
-	width: 60.00em;
-	margin: auto 10.3em;
+	width: 59.00em;
+	margin: auto 14em;
+	list-style-image: url("/images/FHP_Logo2_small.jpg");
 }
 
 .title_bar li{
-	width: 12em;
-	margin: 0em auto;
-	padding-right: 1.563em;
+	margin: 0em 2.5em;
+	/*padding-right: 3.000em;*/
 	display: inline;
 	color: #FF0;
 }
