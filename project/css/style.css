@@ -104,12 +104,13 @@ header h1 {
 
 .title_bar ul {
 	width: 60.00em;
-	margin: auto auto;
+	margin: auto 10.3em;
 }
 
 .title_bar li{
 	width: 12em;
-	margin: 0em 1.563em;
+	margin: 0em auto;
+	padding-right: 1.563em;
 	display: inline;
 	color: #FF0;
 }
