@@ -1,13 +1,42 @@
 /*-------------------------- New CSS for Florida Department of Highway Safety and Motor Vehicles --------------------------*/
-@import "vanilla_reset.css ";
+/*@import "vanilla_reset.css "; */
 
-p.required {
-	color: #FOO;
-	text-align: center;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}*/
+ 
+body {
+	line-height: 1;
 }
 
-body {
-	line-height: 1.5em;
+h1, h2, h3, h4, h5, h6 {
+	font: arial;
 }
 ol, ul {
 	list-style: none;
@@ -24,59 +53,166 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+h1 {
+	
+}
+
+h1 {
+
+}
+
+
+h1 {
+
+}
+
+
+h1 {
+
+}
+
+
+h1 {
+
+}
+
+
+h1 {
+
+}
+
+hgroup {
+	width: 58.75em;
+	padding: 0 0.938em;
+	font: 'Arial Rounded MT bold', arial, helvetica;
+	float: left;
+}
+
+h1 {
+	color: #FFF;
+}
+
+.heading {
+	color: #FFF;
+	float: left;
+}
+
+.sub_heading {
+	color: #FF0;
+	float: right;
+}
+
+
+
 /* -------------------------- End of CSS RESET --------------------------*/
 
 /* -------------------------- Start of BODY  --------------------------*/
 body {
-	width: 100%;
-	background: #025939;
+	width: 0 auto;
+	background: #021526;
+	font: arial;
 }
 /* -------------------------- End of BODY  --------------------------*/
 
 /* -------------------------- Start of HEADER  --------------------------*/
 header {
 	overflow: hidden;
-	border-bottom: 2px solid #000;
-	background: #DDD url('../images/Flag_of_Florida.png') no-repeat 13.125em;
+	border-top: 0.031em solid #5C7DF2;
+	margin: 0.125em;
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFlNTc5OSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzIwN2NjYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMjE1MjYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #1e5799 0%, #207cca 50%, #021526 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(50%,#207cca), color-stop(100%,#021526)); /* Chrome,Safari4+ */ 
+	background: -webkit-linear-gradient(top,  #1e5799 0%,#207cca 50%,#021526 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #1e5799 0%,#207cca 50%,#021526 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #1e5799 0%,#207cca 50%,#021526 100%); /* IE10+ */
+	background: linear-gradient (top bottom,  #1e5799 0%,#207cca 50%,#021526 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#021526',GradientType=0 ); /* IE6-8 */url("../images/FHP_Logo2-medium.jpg") no-repeat;
+	background: url(../images/"FHP_Logo2-medium.jpg") no-repeat;
+	height:6.875em;
 }
 
 header h1 {
 	text-align: center;
 	line-hieght: 1.5em;
+	font: #FFF 'Arial Rounded MT bold', arial, helvetica;
 }
+
+.title_bar {
+	width: 100%;
+	margin: 0 auto;
+	outline: 1px solid green;
+	background: #074a7c; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzA3NGE3YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk5JSIgc3RvcC1jb2xvcj0iIzAyMTUyNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+background: -moz-linear-gradient(top,  #074a7c 0%, #021526 99%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#074a7c), color-stop(99%,#021526)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #074a7c 0%,#021526 99%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #074a7c 0%,#021526 99%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #074a7c 0%,#021526 99%); /* IE10+ */
+background: linear-gradient(to bottom,  #074a7c 0%,#021526 99%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#074a7c', endColorstr='#021526',GradientType=0 ); /* IE6-8 */
+	border-bottom: 0.031em solid #5C7DF2;
+}
+
+.title_bar ul {
+	width: 77.50em;
+	margin: auto auto;
+}
+
+.title_bar li{
+	margin: 0em 2.813em;
+	display: inline;
+	color: #FF0;
+	list-style: url("images/FHP_Logo2_small.jpg");
+}
+
+
 
 /* -------------------------- End of HEADER  --------------------------*/
 
-/* -------------------------- Start of WRAPPER  --------------------------*/
-#wrapper {
-	width: 60.000em;
-	margin: 0em auto;
-	overflow: hidden;
-	background: #FFF;
-}
-/* -------------------------- End of WRAPPER  --------------------------*/
 
 /* -------------------------- Start of NAVIGATION  --------------------------*/
 nav {
-	width: 60.000em;
-	background: #F2BE4B;
+	margin: 0.625em auto;
+	width: 60.00em;
+	padding: 0.313em 0.625em;
+	background: #021526;
 	overflow: hidden;
+	border: 0.250em solid #5C7DF2;
+	border-radius: 0.125em;
+}
+
+nav img {
+	width: 0.938em;
+	padding: 0.313em;
+	border: 0.125em solid #FFF;
+	border-radius: 0.125em;
 }
 
 nav ul {
-	background: #D5611A;
+	width: 74.998em;
+	margin: 0.125em auto;
+	background: #021526;
 	overflow: hidden;
 	display: inline;
 }
 
+nav img.upper {
+	width: 10.000em;
+	background: #F2BE4B;
+	float: left;
+}
 nav li {
 	width: 10.000em;
+	padding: 0.313em;
 	background: #F2BE4B;
 	float: left;
 }
 
 nav a {
-	background: #C26A03;
+	background: #021526;
 	display: block;
 	text-align: center;
 }
@@ -116,22 +252,15 @@ nav a:active {
 
 /* -------------------------- Start of ASIDE  --------------------------*/
 aside {
-	width: 15.438em;
-	margin: 0.125em;
-	background: #D5611A;
-	float: left;
+	margin: 0.625em auto;
+	width: 60.00em;
+	padding: 0.625em;
+	background: #021526;
+	overflow: hidden;
+	border: 0.250em solid #5C7DF2;
+	border-radius: 0.125em;
 }
 /* -------------------------- End of ASIDE  --------------------------*/
-
-/* -------------------------- Start of MAIN SECTION  --------------------------*/
-#main_section {
-	width: 44.063em;
-	margin: 0.125em;
-	float: right;
-	background: #FFF;
-	padding: auto 0.500em;
-}
-/* -------------------------- End of MAIN SECTION  --------------------------*/
 
 /* -------------------------- Start of SECTION  --------------------------*/
 section {
@@ -142,19 +271,55 @@ section {
 
 /* -------------------------- Start of ARTICLE --------------------------*/
 article {
-	
 	margin: 0.125em;
 	float: left;
 	background: #FFF;
 	padding: 0.625em;
 }
+
 /* -------------------------- End of ARTICLE  --------------------------*/
 
 /* -------------------------- Start of FOOTER  --------------------------*/
 footer {
-	background: #F28B0C;
+	width: 100%;
 	clear: both;
-	border-top: 2px solid #000;
+	border-bottom: 0.031em solid #5C7DF2;
+	margin-top: 0.250em;
+	background: #021526; /* Old browsers */
+	background: #000888; /* Old browsers */
+	background: #021526; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iIzAyMTUyNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzI5ODlkOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iIzIwN2NjYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMjE1MjYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #021526 1%, #2989d8 50%, #207cca 51%, #021526 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#021526), color-stop(50%,#2989d8), color-stop(51%,#207cca), color-stop(100%,#021526)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #021526 1%,#2989d8 50%,#207cca 51%,#021526 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #021526 1%,#2989d8 50%,#207cca 51%,#021526 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #021526 1%,#2989d8 50%,#207cca 51%,#021526 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #021526 1%,#2989d8 50%,#207cca 51%,#021526 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#021526', endColorstr='#021526',GradientType=0 ); /* IE6-8 */
+}
+
+footer ul {
+	clear: both;
+	width: 30.00em;
+	padding: 0.313em 0.625em;
+	overflow: hidden;
+	display: inline;
+	outline: 0.125em solid red;
+}
+
+footer li {
+	display: inline;
+	background: #fff;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+footer p {
+	text-align: center;
+	color: #FF0;
 }
 /* -------------------------- End of FOOTER  --------------------------*/
 

@@ -46,9 +46,9 @@ cite {
 li ul, li ol {
 	margin:0 1.5em;
 }
-ul, ol {
+/*ul, ol {
 	margin:0 1.5em 1.5em 1.5em;
-}
+}*/
 ul li {
 	list-style-type:disc;
 }
