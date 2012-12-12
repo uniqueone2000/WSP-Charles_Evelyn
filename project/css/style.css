@@ -298,9 +298,13 @@ section h3 {
 }
 
 section ul {
-	margin: -3em 1em;
+	margin: -3em 0em 0em 1em;
 	float: left;
 	display: block;
+}
+
+section ul a {
+	font: 0.9em/100% Arial, Helvetica, sans-serif;
 }
 
 /* -------------------------- End of SECTION  --------------------------*/
