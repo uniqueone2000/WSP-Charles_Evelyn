@@ -122,20 +122,42 @@ header h1 {
 /* -------------------------- End of CONTAINER  --------------------------*/
 
 /* -------------------------- Start of CONTAINER  --------------------------*/
-#container {
+/*#container {
 	width: 62.000em;
 	margin: 0.1em auto;
 	padding: 0.063em;
 	border: 0.250em #021526;
 	background: #FFF;
 	border-radius: 0.125em;
-}
+}*/
 /* -------------------------- End of HEADER  --------------------------*/
+
+/* -------------------------- Start of CTA  --------------------------*/
+.cta {
+	width: 60.00em;
+	margin: 0.625em auto;
+	padding: 0.313em 0.625em;
+	overflow: hidden;
+	background #29ABE2;
+	border: 0.063em solid #5C7DF2;
+	border-radius: 0.125em;
+	box-shadow: 0em 0em 0.313em 0.250em #FF0;
+}
+
+.cta p, ol {
+	color: #FFF;
+	float: right;
+}
+
+
+
+
+/* -------------------------- End of CTA  --------------------------*/
 
 /* -------------------------- Start of NAVIGATION  --------------------------*/
 nav {
 	width: 60.00em;
-	margin: 0.250em auto;
+	margin: 0.625em auto;
 	padding: 0.313em 0.625em;
 	background: #021526; 
 	overflow: hidden;
@@ -152,6 +174,7 @@ nav {
 	background: linear-gradient(to bottom,  #074a7c 0%,#021526 99%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#074a7c', endColorstr='#021526',GradientType=0 ); /* IE6-8 */
 	border-bottom: 0.063em solid #5C7DF2;
+	box-shadow: 0em 0em 0.313em 0.125em #FFF;
 }
 
 nav img {
@@ -284,6 +307,7 @@ aside {
 	background: linear-gradient(to bottom,  #074a7c 0%,#021526 99%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#074a7c', endColorstr='#021526',GradientType=0 ); /* IE6-8 */
 	border-bottom: 0.063em solid #5C7DF2;
+	box-shadow: 0em 0em 0.313em 0.125em #FFf;
 }
 /* -------------------------- End of ASIDE  --------------------------*/
 
