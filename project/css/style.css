@@ -104,7 +104,7 @@ header h1 {
 }
 
 .title_bar ul {
-	width: 0.59%; /*59.00em / 100% */
+	width: 59.00em;
 	margin: auto 14em;
 	list-style-image: url("/images/FHP_Logo2_small.jpg");
 }
