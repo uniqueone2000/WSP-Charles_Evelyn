@@ -78,6 +78,8 @@ header {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#021526',GradientType=0 ); /* IE6-8 */url("../images/FHP_Logo2-medium.jpg") no-repeat;
 	background: url(../images/"FHP_Logo2-medium.jpg") no-repeat;
 	height:6.875em;
+		border-bottom: 0.063em solid #5C7DF2;
+
 }
 
 header h1 {
@@ -117,17 +119,27 @@ header h1 {
 
 
 
-/* -------------------------- End of HEADER  --------------------------*/
+/* -------------------------- End of CONTAINER  --------------------------*/
 
+/* -------------------------- Start of CONTAINER  --------------------------*/
+#container {
+	width: 62.000em;
+	margin: 0.1em auto;
+	padding: 0.063em;
+	border: 0.250em #021526;
+	background: #FFF;
+	border-radius: 0.125em;
+}
+/* -------------------------- End of HEADER  --------------------------*/
 
 /* -------------------------- Start of NAVIGATION  --------------------------*/
 nav {
 	width: 60.00em;
-	margin: 0.625em auto;
+	margin: 0.250em auto;
 	padding: 0.313em 0.625em;
-	background: #021526;
+	background: #021526; 
 	overflow: hidden;
-	border: 0.250em solid #5C7DF2;
+	border: 0.063em solid #5C7DF2;
 	border-radius: 0.125em;
 }
 
@@ -149,7 +161,7 @@ nav ul {
 nav li {
 	width: 17.750em;
 	margin: 0 0.625em 0.625em 1.250em;
-	background: #fff;
+	background: #FFF;
 	float: left;
 	border-radius: 0.125em;
 }
@@ -245,29 +257,66 @@ nav a:active {
 
 /* -------------------------- Start of ASIDE  --------------------------*/
 aside {
-	margin: 0.625em auto;
 	width: 60.00em;
-	padding: 0.625em;
+	margin: 0.250em auto;
+	padding: 0.313em 0.625em;
 	background: #021526;
 	overflow: hidden;
-	border: 0.250em solid #5C7DF2;
+	border: 0.063em solid #5C7DF2;
 	border-radius: 0.125em;
 }
 /* -------------------------- End of ASIDE  --------------------------*/
 
 /* -------------------------- Start of SECTION  --------------------------*/
 section {
-	/*background: #BF3326;*/
+	float: left;
+	
+}
+
+section h3 {
+	margin: .5em;
+}
+
+section ul {
+	margin: -3em 1em;
+	float: left;
+	display: block;
 }
 
 /* -------------------------- End of SECTION  --------------------------*/
 
 /* -------------------------- Start of ARTICLE --------------------------*/
 article {
-	margin: 0.125em;
+	width: 16.500em;
+	margin: 0.625em 0em 0.625em 1.250em;
+	padding: 0.313em 0.625em;
 	float: left;
-	background: #FFF;
+	background: #29ABE2;
 	padding: 0.625em;
+	border: 0.250em solid #5C7DF2;
+	border-radius: 0.125em;
+}
+
+article h3 {
+	margin: -0.3em 0em .5em 0em;
+}
+
+
+.quick_links_pic {
+	width: 2.500em;
+	border: 0.125em solid #F7931E;
+	border-radius: 0.125em;
+	float: left;
+}
+
+.quick_links ul {
+	width: 3.500em;
+	float: left;
+}
+
+.quick_links li {
+	float: left;
+	display: block;
 }
 
 /* -------------------------- End of ARTICLE  --------------------------*/
