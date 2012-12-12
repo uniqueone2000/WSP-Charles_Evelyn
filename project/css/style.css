@@ -51,8 +51,6 @@ hgroup {
 	float: right;
 }
 
-
-
 /* -------------------------- End of CSS RESET --------------------------*/
 
 /* -------------------------- Start of BODY  --------------------------*/
@@ -112,24 +110,11 @@ header h1 {
 
 .title_bar li{
 	margin: 0em 2.5em;
-	/*padding-right: 3.000em;*/
 	display: inline;
 	color: #FF0;
 }
-
-
-
 /* -------------------------- End of CONTAINER  --------------------------*/
 
-/* -------------------------- Start of CONTAINER  --------------------------*/
-/*#container {
-	width: 62.000em;
-	margin: 0.1em auto;
-	padding: 0.063em;
-	border: 0.250em #021526;
-	background: #FFF;
-	border-radius: 0.125em;
-}*/
 /* -------------------------- End of HEADER  --------------------------*/
 
 /* -------------------------- Start of CTA  --------------------------*/
@@ -144,9 +129,16 @@ header h1 {
 	box-shadow: 0em 0em 0.313em 0.250em #FF0;
 }
 
-.cta p, ol {
+.cta p {
+	margin: 0.1em auto;
+	float: left;
 	color: #FFF;
-	float: right;
+	
+}
+
+.cta ol {
+	color: #FFF;
+	clear: both;
 }
 
 
