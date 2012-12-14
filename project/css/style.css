@@ -124,23 +124,73 @@ header h1 {
 	margin: 01.041666666667% auto; /*0.625em / 60.000em */
 	padding: 0.521666666667%; /* 0.313em / 60.000em */
 	overflow: hidden;
-	background #29ABE2;
+	background: #29ABE2;
 	border: 0.105% solid #FFF; /* 0.063em / 60.000em */
 	border-radius: 0.208333333333%; /* 0.125em / 60.000em */
 	box-shadow: 0em 0em 0.313em 0.250em #FF0;
 }
 
-.cta p {
+.action-left {
+	width: 28.000em;
+	margin: 0.313em;
+	float: left;
+	outline: 1px solid green;
+}
+
+.action-left img {
+	margin: 0.313em;
+	width: 26.000em;
+	height: 8.000em;
+	outline: 1px solid red;
+	float: left;
+}
+
+h4 .action-left {
+	margin: 0.313em;
+	/*width: 30.000em;*/
+	clear: left;
+	color: #FFF;
+	outline: 1px solid red;
+}
+
+.action-right {
+	width: 30.000em;
+	margin: 0.313em;
+	float: right;
+	outline: 1px solid green;
+}
+
+.action-right h4 {
+	/*margin: 0.313em;*/
+	clear: left;
+	color: #FFF;
+	outline: 1px solid red;
+}
+
+.action-right p {
 	margin: 0.1em auto;
 	float: left;
 	color: #FFF;
-	
+	outline: 1px solid red;
 }
 
-.cta ol {
+
+.action-right ol {
+	width: 30.000em;
 	color: #FFF;
-	clear: both;
+	float: left;
+	overflow: hidden:
+	outline: 1px solid red;
 }
+
+.action-right li{
+		float: left;
+
+outline: 1px solid red;
+}
+
+
+
 
 
 
@@ -329,12 +379,15 @@ section ul a {
 article {
 	width: 27.5%; /* 16.500em / 60.000em */
 	margin: 0.625em 0em 0.625em 1.250em;
-	/*padding: 0.313em 0.625em;*/
+	padding: 0.313em 0.625em;
 	float: left;
 	background: #29ABE2;
 	padding: 01.041666666667%; /*0.625em / 60.000em */
 	border: 0.250em solid #5C7DF2;
 	border-radius: 0.125em;
+	I would probably create a div, place the image directly in it and have an heading level for the text, a button element and a paragraph for any additional support text
+	
+	So if your box is 100px wide and you want it to have 10px of padding on each side, your box will need to be 120px wide
 }
 
 article h3 {
