@@ -487,11 +487,14 @@ th {
 	padding: 01.041666666667%; /*0.625em / 60.000em */
 	color: #FF0;
 	border-bottom: 0.125em solid #FFF;
+	text-shadow: 0.125em 0.125em 0.313em  #000;
+
 }
 
 tr {
 	text-align: left;
 	padding: 01.041666666667%; /*0.625em / 60.000em */
+	text-shadow: 0.125em 0.125em 0.313em  #000;
 }
 
 tr.first {
