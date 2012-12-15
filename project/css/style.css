@@ -486,6 +486,7 @@ table {
 th {
 	padding: 01.041666666667%; /*0.625em / 60.000em */
 	color: #FF0;
+	border-bottom: 0.125em solid #FFF;
 }
 
 tr {
@@ -494,11 +495,13 @@ tr {
 }
 
 tr.first {
-	background: #FF0;
+	background: #666;
+	border-bottom: 0.063em solid #FFF;
 }
 
 tr.second {
-	background: #888;
+	background: #777;
+	border-bottom: 0.063em solid #FFF;
 }
 
 td {
