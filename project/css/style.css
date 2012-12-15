@@ -120,77 +120,57 @@ header h1 {
 /* -------------------------- End of HEADER  --------------------------*/
 
 /* -------------------------- Start of CTA  --------------------------*/
-.cta {
+#cta {
 	width: 67%; /* 60.000em */
 	margin: 01.041666666667% auto; /*0.625em / 60.000em */
 	padding: 0.521666666667%; /* 0.313em / 60.000em */
 	overflow: hidden;
-	background: #29ABE2;
+	background: #fff;
 	border: 0.105% solid #FFF; /* 0.063em / 60.000em */
 	border-radius: 0.208333333333%; /* 0.125em / 60.000em */
 	box-shadow: 0em 0em 0.313em 0.250em #FF0;
 }
 
-.action-left {
-	width: 28.000em;
-	margin: 0.313em;
+.cta-top-left {
+	width: 45%; /* 27.000em / 60.000em */
+	margin: 0.938em;
 	float: left;
-	outline: 1px solid green;
+	outline: 2px solid red;
 }
 
-.action-left img {
-	margin: 0.313em;
-	width: 26.000em;
-	height: 8.000em;
-	outline: 1px solid red;
+.cta-top-right {
+	width: 45%; /* 27.000em / 60.000em */
+	margin: 0.938em;
+	float: left;
+	outline: 2px solid blue;
+}
+
+.cta-bottom-left {
+	width: 45%; /* 27.000em / 60.000em */
+	margin: 0.938em;
+	float: left;
+	outline: 2px solid green;
+}
+
+.cta-top-left h4 {
+	width: ;
+	margin: auto auto;
 	float: left;
 }
 
-h4 .action-left {
-	margin: 0.313em;
-	/*width: 30.000em;*/
-	clear: left;
-	color: #FFF;
-	outline: 1px solid red;
+.cta-top-left img {
+	width: /*100%;*/
+	height: 10em;
+	clear: both;
 }
 
-.action-right {
-	width: 30.000em;
-	margin: 0.313em;
-	float: right;
-	outline: 1px solid green;
-}
-
-.action-right h4 {
-	width: 25.000em;/*margin: 0.313em;*/
+.cta-bottom-right {
+	width: 45%; /* 27.000em / 60.000em */
+	margin: 0.938em;
 	float: left;
-	color: #FFF;
-	outline: 1px solid red;
+	outline: 2px solid orange;
 }
 
-.action-right p {
-	margin: 0.3em ;
-	float: left;
-	color: #FFF;
-	outline: 1px solid red;
-}
-
-
-.action-right ol {
-	width: 15.000em;
-	color: #FFF;
-	float: left;
-	overflow: hidden;
-	padding: 0em;
-	outline: 1px solid red;
-}
-
-.action-right li {
-	width: 13.000em;
-	margin: 0.1em 0em;
-	float: left;
-	outline: 1px solid red;
-}
 /* -------------------------- End of CTA  --------------------------*/
 
 /* -------------------------- Start of NAVIGATION  --------------------------*/
@@ -293,6 +273,7 @@ nav a {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#999999', endColorstr='#000000',GradientType=0 ); /* IE6-8 */
 }
 
+
 /*---------- Start of Link States ----------*/
 
 nav a:link {
@@ -345,8 +326,9 @@ aside {
 
 /* -------------------------- Start of SECTION  --------------------------*/
 section {
-	float: left;
-	
+	width: 67%; /* 60.000em */
+	margin: 01.041666666667% auto; /*0.625em / 60.000em */
+	padding: 0.521666666667%; /* 0.313em / 60.000em */
 }
 
 section h3 {
@@ -464,9 +446,6 @@ footer p {
 
 /* -------------------------- Start of TABLE  --------------------------*/
 table {
-	width: 100%; /* 60.000em */
-	margin: 01.041666666667% auto; /*0.625em / 60.000em */
-	padding: 0.521666666667%; /* 0.313em / 60.000em */
 	background: #29ABE2;
 	overflow: hidden;
 	border: 0.105% solid #5C7DF2; /* 0.063em / 60.000em */
@@ -529,8 +508,6 @@ td.right {
 
 /* -------------------------- FORMS  --------------------------*/
 form {
-	width: 141%;
-	margin: auto auto;
 	background: #021526; /* Old browsers */
 	background: #000888; /* Old browsers */
 	background: #021526; /* Old browsers */
