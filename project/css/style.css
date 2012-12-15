@@ -47,6 +47,7 @@ hgroup {
 }
 
 .sub_heading {
+	margin: 1.125em;
 	color: #FF0;
 	float: right;
 }
@@ -161,14 +162,14 @@ h4 .action-left {
 }
 
 .action-right h4 {
-	/*margin: 0.313em;*/
-	clear: left;
+	width: 25.000em;/*margin: 0.313em;*/
+	float: left;
 	color: #FFF;
 	outline: 1px solid red;
 }
 
 .action-right p {
-	margin: 0.1em auto;
+	margin: 0.3em ;
 	float: left;
 	color: #FFF;
 	outline: 1px solid red;
@@ -176,25 +177,20 @@ h4 .action-left {
 
 
 .action-right ol {
-	width: 30.000em;
+	width: 15.000em;
 	color: #FFF;
 	float: left;
 	overflow: hidden:
+	padding: 0em;
 	outline: 1px solid red;
 }
 
-.action-right li{
-		float: left;
-
-outline: 1px solid red;
+.action-right li {
+	width: 13.000em;
+	margin: 0.1em 0em;
+	float: left;
+	outline: 1px solid red;
 }
-
-
-
-
-
-
-
 /* -------------------------- End of CTA  --------------------------*/
 
 /* -------------------------- Start of NAVIGATION  --------------------------*/
@@ -414,6 +410,18 @@ article h3 {
 
 /* -------------------------- End of ARTICLE  --------------------------*/
 
+/* -------------------------- Start of MAIN SECTION  --------------------------*/
+#main_section {
+	width: 67%; /* 60.000em */
+	margin: 01.041666666667% auto; /*0.625em / 60.000em */
+	padding: 0.521666666667%; /* 0.313em / 60.000em */
+	background: #021526; 
+	border: 0.105% solid #5C7DF2; /* 0.063em / 60.000em */
+	border-radius: 0.208333333333%; /* 0.125em / 60.000em */
+}
+
+/* -------------------------- End of MAIN SECTION  --------------------------*/
+
 /* -------------------------- Start of FOOTER  --------------------------*/
 footer {
 	width: 100%;
@@ -433,6 +441,8 @@ footer {
 	background: linear-gradient(to bottom,  #021526 1%,#2989d8 50%,#207cca 51%,#021526 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#021526', endColorstr='#021526',GradientType=0 ); /* IE6-8 */
 }
+
+
 
 footer ul {
 	clear: both;
@@ -458,39 +468,90 @@ footer p {
 }
 /* -------------------------- End of FOOTER  --------------------------*/
 
-/* -------------------------- TABLES  --------------------------*/
+/* -------------------------- Start of TABLE  --------------------------*/
 table {
-
+	width: 100%; /* 60.000em */
+	margin: 01.041666666667% auto; /*0.625em / 60.000em */
+	padding: 0.521666666667%; /* 0.313em / 60.000em */
+	background: #29ABE2;
+	overflow: hidden;
+	border: 0.105% solid #5C7DF2; /* 0.063em / 60.000em */
+	border-radius: 0.208333333333%; /* 0.125em / 60.000em */
+	border-bottom: 0.063em solid #5C7DF2;
+	box-shadow: 0em 0em 0.313em 0.125em #FFF;
+	clear: left;
+	color: #FFF;
 }
 
 th {
+	padding: 01.041666666667%; /*0.625em / 60.000em */
+	color: #FF0;
+}
 
+tr {
+	text-align: left;
+	padding: 01.041666666667%; /*0.625em / 60.000em */
+}
+
+tr.first {
+	background: #FF0;
+}
+
+tr.second {
+	background: #888;
 }
 
 td {
-
+	width: 50%;
+	padding: 01.041666666667%; /*0.625em / 60.000em */
 }
 
-/* -------------------------- TABLES  --------------------------*/
+/* -------------------------- End of TABLE  --------------------------*/
 
 /* -------------------------- FORMS  --------------------------*/
 form {
-	background: #999;
-	padding: 0.625em;
+	background: #021526; /* Old browsers */
+	background: #000888; /* Old browsers */
+	background: #021526; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iIzAyMTUyNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzI5ODlkOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iIzIwN2NjYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMjE1MjYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #021526 1%, #2989d8 50%, #207cca 51%, #021526 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#021526), color-stop(50%,#2989d8), color-stop(51%,#207cca), color-stop(100%,#021526)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #021526 1%,#2989d8 50%,#207cca 51%,#021526 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #021526 1%,#2989d8 50%,#207cca 51%,#021526 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #021526 1%,#2989d8 50%,#207cca 51%,#021526 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #021526 1%,#2989d8 50%,#207cca 51%,#021526 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#021526', endColorstr='#021526',GradientType=0 ); /* IE6-8 */	padding: 0.625em;
+	overflow: hidden;
+	box-shadow: 0em 0em 0.313em 0.125em #FFf;
+	
+}
+
+section.form {
+	/*margin: 0.313em;*/
+	
+	
 }
 
 fieldset {
+	margin: 0.313em;
+	padding: 0.521666666667%; /* 0.313em / 60.000em */
 	background: #888;
 	border: 0.125em solid #000;
 	padding: 0.313em;
+	clear: both;
+	
 }
 
 legend {
-	/*border: 0.125em solid #000;*/
-	padding: 0.313em;
+	float: left;
+	margin: 1.125em;
+	color: #FF0;
 }
 
+
 label {
+	clear: left;
 	margin: 0.313em ;
 }
 
