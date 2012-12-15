@@ -547,7 +547,9 @@ form {
 }
 
 section.form {
-	/*margin: 0.313em;*/
+	width: 67%; /* 60.000em */
+	margin: 01.041666666667% auto; /*0.625em / 60.000em */
+	padding: 0.521666666667%; /* 0.313em / 60.000em */
 	
 	
 }
