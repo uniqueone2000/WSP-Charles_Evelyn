@@ -521,6 +521,16 @@ td.top {
 	text-shadow: 0.125em 0.125em 0.313em  #000;
 }
 
+td.left {
+	background: #333;
+	border-bottom: 0.063em solid #FFF;
+}
+
+td.right {
+	background: #444;
+	border-bottom: 0.063em solid #FFF;
+}
+
 /* -------------------------- End of TABLE  --------------------------*/
 
 /* -------------------------- FORMS  --------------------------*/
