@@ -242,14 +242,14 @@ nav ul {
 }
 
 nav li {
-	width: 17.750em;
+	width: 29.62962962963%; /* 16.000em / 54.000em */
 	margin: 0 0.625em 0.625em 1.250em;
 	float: left;
 	border-radius: 0.125em;
 }
 
 nav img.upper {
-	width: 17.500em; /* 17.500em / 60.000em */
+	width: 100%; 
 	height: 6.000em;
 	margin: 0 auto;
 	background: #999;
@@ -264,7 +264,7 @@ nav a {
 }
 
 .button {
-	width: 16.900em;
+	width: 84.375%; /* 13.5em / 53.000em */
 	margin: 0.250em auto;
 	display: inline-block;
 	outline: none;
