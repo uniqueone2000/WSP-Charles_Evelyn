@@ -58,6 +58,10 @@ p {
 	text-align: justify;
 }
 
+article ul.deliverable {
+	list-style-type: none;
+}
+
 
 /* -------------------------- Start of BODY  --------------------------*/
 body {
@@ -183,6 +187,8 @@ article ol {
 article ol ul {
 	list-style-type: square;
 }
+
+
 /* -------------------------- End of ARTICLE  --------------------------*/
 
 /* -------------------------- Start of SECTION  --------------------------*/
