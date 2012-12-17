@@ -211,7 +211,11 @@ section li {
 	list-style-type: square;
 }
 
-table {
+/* -------------------------- End of SECTION  --------------------------*/
+
+/* -------------------------- Start of TABLES --------------------------*/
+
+table.compete {
 	margin: auto auto;
 	border: 0.125em solid #999;
 	padding: 0.125em;
@@ -229,8 +233,13 @@ tr {
 	text-align: left;
 }
 
+td {
+	width: 33%;
+}
 
-/* -------------------------- End of SECTION  --------------------------*/
+
+
+/* -------------------------- End of TABLES  --------------------------*/
 
 /* -------------------------- Start of FOOTER  --------------------------*/
 footer {
