@@ -1,0 +1,243 @@
+/*-------------------------- CSS for Project Analysis of Florida Department of Highway Safety and Motor Vehicles website--------------------------*/
+
+@import "vanilla_reset.css ";
+
+hgroup {
+	text-shadow: 0.125em 0.125em 0.125em #000;
+	border-radius: 0.125em;
+	text-align: left;
+	text-indent: 0.625em;
+	background: #14594B;
+	color: #FFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.5em;
+	font: 1.3em, arial, helvetica, serif, bold;
+	margin: 0.5em 1.200em;
+	text-indent: 0.625em;
+	background: #14594B;
+	color: #FFF;
+	text-shadow: 0.125em 0.125em 0.125em #000;
+	border-radius: 0.125em;
+}
+
+body {
+	font: 1.000em arial, helvetica, serif;
+}
+
+p {
+	text-indent: 1.563em;
+	line-height: 1.3em;
+	margin-bottom: 1em;
+}
+
+.title_header {
+	margin: 0.313em;
+	text-align:center;
+}
+
+.escape {
+	float: right;
+	padding: 0.625em 0 0 0.313em;
+}
+
+#wrapper, article, section, ul {
+	margin-left: 0.938em;
+}
+
+.right {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.justify {
+	text-align: justify;
+}
+
+
+/* -------------------------- Start of BODY  --------------------------*/
+body {
+	width: 100%;
+	background: #14594B;
+}
+/* -------------------------- End of BODY  --------------------------*/
+
+/* -------------------------- Start of WRAPPER  --------------------------*/
+#wrapper {
+	width: 60.000em;
+	margin: 0.313em auto;
+	background: #FFF;
+	overflow: hidden;
+	padding: 0.625em;
+	border-radius: 0.125em;
+}
+/* -------------------------- End of WRAPPER  --------------------------*/
+
+/* -------------------------- Start of HEADER  --------------------------*/
+header {
+	background: #33E5C2;
+	border-radius: 0.125em;
+	padding: 0.625em;
+}
+
+header h1  {
+	text-align: center;
+}
+/* -------------------------- End of HEADER  --------------------------*/
+
+/* -------------------------- Start of ASIDE  --------------------------*/
+aside {
+	width: 11.248em;
+	margin: 0.125em 0em;
+	padding-bottom: 91.45em;
+	margin-bottom: -91.45em;
+	background: #2ABFA1;
+	float: left;
+	border-radius: 0.125em;
+}
+
+nav {
+	width: 11.250em;
+	margin: 0.125em auto;
+	overflow: hidden;
+}
+
+nav ul {
+	display: inline;
+	list-style-type: none;
+}
+
+nav li {
+	width: 11.250em;
+	float: left;
+	margin-bottom: 0.125em;
+}
+
+nav a {
+	display: block;
+	text-align: left;
+	text-indent: 0.625em;
+	text-decoration: none;
+	line-height: 1.3em;
+	padding: 0em 0.250em;
+	text-shadow: 0.125em 0.125em 0.125em #888;
+}
+
+/*---------- Start of Link States ----------*/
+
+Yellow = #FF0
+Dark Gray = #999
+Red = #F00
+White = #FFF
+Purple = 99F
+
+nav a:link {
+	color: #FFF;
+	background: #F90;
+}
+
+nav a:visited {
+	color: #000;
+	background: #33E5C2;
+}
+
+nav a:hover {
+	color: #FFF;/*33E5C2*/
+	background: #14594B;
+	text-shadow: 0.125em 0.125em 0.125em #000;
+}
+
+nav a:active {
+	color: #FC3;
+	background: #F90;
+}
+/*---------- End of Link States ----------*/
+
+/* -------------------------- End of ASIDE  --------------------------*/
+
+/* -------------------------- Start of ARTICLE --------------------------*/
+article {
+	width: 46.750em;
+	margin: 0.125em auto;
+	padding: 0.625em 0.938em;
+	background: #8ED9CA;
+	float: right;
+	border-radius: 0.125em;
+}
+
+article h1, h2, h3 {
+	margin: 0em;
+	
+}
+
+article ol {
+	margin-left: 2.813em;
+	margin-bottom: .8em;
+}
+
+article ol ul {
+	list-style-type: square;
+}
+/* -------------------------- End of ARTICLE  --------------------------*/
+
+/* -------------------------- Start of SECTION  --------------------------*/
+section {
+	width: 46.750em;
+	margin: 0.063em auto;
+	padding: 0.625em 0.938em;
+	float: right;
+	background: #8ED9CA;
+	border-radius: 0.125em;
+}
+
+section p {
+	margin: 0em 2.813em;
+}
+
+section ul {
+	margin: 0em 2.813em;
+	padding: 0.625em;
+	background: #54D1B1;
+	border-radius: 0.125em;
+}
+
+section li {
+	margin-left: 0.625em;
+	list-style-type: square;
+}
+
+table {
+	margin: auto auto;
+	border: 0.125em solid #999;
+	padding: 0.125em;
+	border-collapse: collapse;
+}
+
+th {
+	text-align: left;
+	font: bold;
+	background: #54D1B1;
+}
+
+tr {
+	border: 0.125em solid #999;
+	text-align: left;
+}
+
+
+/* -------------------------- End of SECTION  --------------------------*/
+
+/* -------------------------- Start of FOOTER  --------------------------*/
+footer {
+	background: #33E5C2;
+	border-radius: 0.125em;
+	padding: 0.625em;
+}
+/* -------------------------- End of FOOTER  --------------------------*/
+footer {
+	clear: both;
+}

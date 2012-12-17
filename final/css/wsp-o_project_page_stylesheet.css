@@ -1,0 +1,94 @@
+/* ------- CSS for WSP-O Project Page ------- */
+@import "vanilla_reset.css ";
+
+/* ------- General Styles ------- */
+
+hgroup {
+	text-shadow: 0.125em 0.125em 0.125em #000;
+	border-radius: 0.125em;
+	text-align: left;
+	text-indent: 0.625em;
+	background: #14594B;
+	color: #FFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.5em;
+	font: 1.3em, arial, helvetica, serif, bold;
+	margin: 0.5em 1.200em;
+	text-indent: 0.625em;
+	background: #14594B;
+	color: #FFF;
+	text-shadow: 0.125em 0.125em 0.125em #000;
+	border-radius: 0.125em;
+}
+
+body {
+	font: 1.000em arial, helvetica, serif;
+}
+
+p {
+	text-indent: 1.563em;
+	line-height: 1.3em;
+	margin-bottom: 1em;
+}
+
+.title_header {
+	margin: 0.313em;
+	text-align:center;
+}
+
+
+/* ------- Start of Body ------- */
+body {
+	width: 100%;
+	background: #14594B;
+	overflow: hidden;
+}
+
+/* ------- Start of Wrapper ------- */
+#wrapper {
+	width: 65.000em;
+	margin: 0.313em auto;
+	background: #FFF;
+	overflow: hidden;
+	padding: 0.625em;
+	border-radius: 0.125em;
+}
+
+
+/* ------- Start of Header ------- */
+header {
+	background: #33E5C2;
+	border-radius: 0.125em;
+	padding: 0.625em;
+}
+
+/* ------- Start of Navigation ------- */
+nav {
+	background: #FFF;
+}
+
+nav ul {
+
+}
+
+nav li {
+	display: inline;
+	margin: auto 0.250em;
+}
+
+nav a {
+	text-decoration: none;
+	
+}
+
+/* ------- Start of Footer  ------- */
+
+footer {
+	background: #33E5C2;
+	border-radius: 0.125em;
+	padding: 0.625em;
+	clear: both;
+}
+

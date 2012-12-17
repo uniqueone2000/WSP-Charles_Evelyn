@@ -227,34 +227,31 @@ nav {
 	box-shadow: 0em 0em 0.313em 0.125em #FFF;
 }
 
-nav img {
-	width: 1.563333333333%; /* 0.938em / 60.000em */
-	padding: 0.313em;
-	border: 0.125em solid #FFF;
-	border-radius: 0.125em;
-}
-
 nav ul {
 	width: 90%; /* 54.000em / 60.000em */
 	margin: 0.00208333333333% auto; /* 0.125em / 60.000em */
 	overflow: hidden;
 	display: inline;
+	outline: 2px solid red;
 }
 
 nav li {
-	width: 29.62962962963%; /* 16.000em / 54.000em */
-	margin: 0 0.625em 0.625em 1.250em;
+	width: 27.777777777778%; /* 15.000em / 54.000em */
+	margin: 3.90625% 2.5%; /*0.625em  0.375em / 15.000em */ 
 	float: left;
 	border-radius: 0.125em;
+	outline: 2px solid red;
 }
 
 nav img.upper {
-	width: 100%; 
+	width: 15.8em; 
+	margin: 0% auto;
+	padding:  0.313em;
 	height: 6.000em;
-	margin: 0 auto;
+	border: 0.125em solid #FFF;
+	border-radius: 0.125em;
 	background: #999;
 	float: left;
-	border-radius: 0.250em;
 }
 
 nav a {
@@ -264,7 +261,7 @@ nav a {
 }
 
 .button {
-	width: 84.375%; /* 13.5em / 53.000em */
+	width: 15.7em; /* 13.5em / 53.000em */
 	margin: 0.250em auto;
 	display: inline-block;
 	outline: none;
@@ -429,6 +426,17 @@ article h3 {
 
 /* -------------------------- End of MAIN SECTION  --------------------------*/
 
+/* -------------------------- Start of LOCATIONS  --------------------------*/
+#locations {
+	width: 67%; /* 60.000em */
+	margin: 01.041666666667% auto; /*0.625em / 60.000em */
+	padding: 0.521666666667%; /* 0.313em / 60.000em */
+	border: 0.105% solid #5C7DF2; /* 0.063em / 60.000em */
+	border-radius: 0.208333333333%; /* 0.125em / 60.000em */
+}
+
+/* -------------------------- End of LOCATIONS  --------------------------*/
+
 /* -------------------------- Start of FOOTER  --------------------------*/
 footer {
 	width: 100%;
@@ -536,6 +544,63 @@ td.right {
 }
 
 /* -------------------------- End of TABLE  --------------------------*/
+
+/* -------------------------- Start of Counties TABLE  --------------------------*/
+table.counties {
+	width: 95%; /* 57.000em / 60.0003m */
+	margin: 01.041666666667% auto; /*0.625em / 60.000em */
+	padding: 0.521666666667%; /* 0.313em / 60.000em */
+	background: #29ABE2;
+	overflow: hidden;
+	border: 0.105% solid #5C7DF2; /* 0.063em / 60.000em */
+	border-radius: 0.208333333333%; /* 0.125em / 60.000em */
+	border-bottom: 0.063em solid #5C7DF2;
+	box-shadow: 0em 0em 0.313em 0.125em #FFF;
+	clear: left;
+	color: #FFF;
+}
+
+th {
+	padding: 01.041666666667%; /*0.625em / 60.000em */
+	color: #FF0;
+	border-bottom: 0.125em solid #FFF;
+	text-shadow: 0.125em 0.125em 0.313em  #000;
+
+}
+
+tr {
+	text-align: left;
+	padding: 01.041666666667%; /*0.625em / 60.000em */
+	text-shadow: 0.125em 0.125em 0.313em  #000;
+}
+
+td {
+	width: 25%;
+	padding: 01.041666666667%; /*0.625em / 60.000em */
+	text-align: center;
+}
+
+table.counties a {
+	color: #FFF;
+}
+
+table.counties a:link {
+	color: #FFF;
+}
+
+table.counties a:visited {
+	color: #CCC;
+}
+
+table.counties a:hover {
+	color: #FF0;
+}
+
+table.counties a:active {
+	color: #FC3;
+}
+
+/* -------------------------- End of Counties TABLE  --------------------------*/
 
 /* -------------------------- FORMS  --------------------------*/
 form {

@@ -141,8 +141,9 @@ nav a:link {
 }
 
 nav a:visited {
-	color: #000;
+	color: #EEE;
 	background: #33E5C2;
+	text-shadow: 0.125em 0.125em 0.125em #FFF;
 }
 
 nav a:hover {
